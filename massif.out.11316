@@ -1,0 +1,755 @@
+desc: (none)
+cmd: ./a.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2496723
+mem_heap_B=4640
+mem_heap_extra_B=1104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=4625379
+mem_heap_B=4864
+mem_heap_extra_B=1576
+mem_stacks_B=0
+heap_tree=peak
+n16: 4864 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 2208 0x51A611B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x412FE0: main (Main.c:80)
+  n0: 552 0x41300E: main (Main.c:84)
+  n0: 552 0x41303C: main (Main.c:88)
+  n0: 552 0x41306A: main (Main.c:92)
+  n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 816 in 69 places, all below massif's threshold (1.00%)
+ n1: 392 0x400F14: setupinertia (Variables.h:86)
+  n0: 392 0x412D9F: main (Main.c:31)
+ n3: 320 0x4034BF: arrscalmult (Requisites.h:485)
+  n0: 176 in 26 places, all below massif's threshold (1.00%)
+  n1: 72 0x410545: quest (AttitudeDetermination.h:21)
+   n2: 72 0x4110B3: SensorFusion (AttitudeDetermination.h:136)
+    n0: 72 0x4133F0: main (Main.c:149)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 72 0x4105D1: quest (AttitudeDetermination.h:22)
+   n2: 72 0x4110B3: SensorFusion (AttitudeDetermination.h:136)
+    n0: 72 0x4133F0: main (Main.c:149)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n4: 216 0x401B06: scalar_mult_mat (Requisites.h:51)
+  n1: 72 0x41089D: quest (AttitudeDetermination.h:47)
+   n2: 72 0x4110B3: SensorFusion (AttitudeDetermination.h:136)
+    n0: 72 0x4133F0: main (Main.c:149)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 72 0x4108C7: quest (AttitudeDetermination.h:47)
+   n2: 72 0x4110B3: SensorFusion (AttitudeDetermination.h:136)
+    n0: 72 0x4133F0: main (Main.c:149)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 72 0x408C06: computeLAMBDA_s (Controller.h:33)
+   n1: 72 0x408EE9: sliding_controller (Controller.h:66)
+    n0: 72 0x413221: main (Main.c:124)
+  n0: 0 in 4 places, all below massif's threshold (1.00%)
+ n3: 144 0x401EF4: matrix_add (Requisites.h:101)
+  n1: 72 0x4107CB: quest (AttitudeDetermination.h:36)
+   n2: 72 0x4110B3: SensorFusion (AttitudeDetermination.h:136)
+    n0: 72 0x4133F0: main (Main.c:149)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 72 0x4108DC: quest (AttitudeDetermination.h:47)
+   n2: 72 0x4110B3: SensorFusion (AttitudeDetermination.h:136)
+    n0: 72 0x4133F0: main (Main.c:149)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 0 in 4 places, all below massif's threshold (1.00%)
+ n2: 96 0x410E0D: SensorFusion (AttitudeDetermination.h:107)
+  n0: 96 0x4133F0: main (Main.c:149)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 96 0x410DEB: SensorFusion (AttitudeDetermination.h:106)
+  n0: 96 0x4133F0: main (Main.c:149)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72 0x403406: arrsum (Requisites.h:470)
+  n0: 72 in 13 places, all below massif's threshold (1.00%)
+ n1: 72 0x401AD7: scalar_mult_mat (Requisites.h:48)
+  n0: 72 in 7 places, all below massif's threshold (1.00%)
+ n1: 72 0x400F79: setupinertia (Variables.h:91)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n2: 72 0x40207F: mxinv (Requisites.h:128)
+  n0: 72 0x412DAE: main (Main.c:32)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72 0x40161F: take_etavalues (Variables.h:244)
+  n0: 72 0x412FB3: main (Main.c:71)
+ n1: 72 0x401754: take_LAMBDAqvalues (Variables.h:257)
+  n0: 72 0x412FBD: main (Main.c:72)
+ n1: 72 0x400F9B: setupinertia (Variables.h:92)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n1: 72 0x403E4C: qtransform (Requisites.h:620)
+  n0: 72 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=7804026
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=11298637
+mem_heap_B=4640
+mem_heap_extra_B=1104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=15700457
+mem_heap_B=4640
+mem_heap_extra_B=1104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=17901287
+mem_heap_B=4640
+mem_heap_extra_B=1104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=20105626
+mem_heap_B=4640
+mem_heap_extra_B=1104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=22308518
+mem_heap_B=4640
+mem_heap_extra_B=1104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=24636310
+mem_heap_B=4640
+mem_heap_extra_B=1104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=26838090
+mem_heap_B=4640
+mem_heap_extra_B=1104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=29040020
+mem_heap_B=4640
+mem_heap_extra_B=1104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=31243095
+mem_heap_B=4640
+mem_heap_extra_B=1104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=35573665
+mem_heap_B=4840
+mem_heap_extra_B=1560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=38755041
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=40957123
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=43162881
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=46739289
+mem_heap_B=4360
+mem_heap_extra_B=1200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=49892592
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=52093557
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=54295580
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=56496779
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=58699109
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=60900629
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=detailed
+n13: 4088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 2208 0x51A611B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x412FE0: main (Main.c:80)
+  n0: 552 0x41300E: main (Main.c:84)
+  n0: 552 0x41303C: main (Main.c:88)
+  n0: 552 0x41306A: main (Main.c:92)
+  n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 680 in 73 places, all below massif's threshold (1.00%)
+ n1: 392 0x400F14: setupinertia (Variables.h:86)
+  n0: 392 0x412D9F: main (Main.c:31)
+ n1: 152 0x4034BF: arrscalmult (Requisites.h:485)
+  n0: 152 in 29 places, all below massif's threshold (1.00%)
+ n1: 96 0x403E4C: qtransform (Requisites.h:620)
+  n0: 96 in 4 places, all below massif's threshold (1.00%)
+ n1: 72 0x403406: arrsum (Requisites.h:470)
+  n0: 72 in 14 places, all below massif's threshold (1.00%)
+ n2: 72 0x401B06: scalar_mult_mat (Requisites.h:51)
+  n1: 72 0x408C06: computeLAMBDA_s (Controller.h:33)
+   n1: 72 0x408EE9: sliding_controller (Controller.h:66)
+    n0: 72 0x413221: main (Main.c:124)
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n1: 72 0x400F79: setupinertia (Variables.h:91)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n1: 72 0x400F9B: setupinertia (Variables.h:92)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n2: 72 0x40207F: mxinv (Requisites.h:128)
+  n0: 72 0x412DAE: main (Main.c:32)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72 0x40161F: take_etavalues (Variables.h:244)
+  n0: 72 0x412FB3: main (Main.c:71)
+ n1: 72 0x401754: take_LAMBDAqvalues (Variables.h:257)
+  n0: 72 0x412FBD: main (Main.c:72)
+ n1: 56 0x400EE0: setupinertia (Variables.h:83)
+  n0: 56 0x412D9F: main (Main.c:31)
+#-----------
+snapshot=24
+#-----------
+time=63102631
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=65304776
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=67506637
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=70904108
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=74238357
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=76440844
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=detailed
+n13: 4088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 2208 0x51A611B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x412FE0: main (Main.c:80)
+  n0: 552 0x41300E: main (Main.c:84)
+  n0: 552 0x41303C: main (Main.c:88)
+  n0: 552 0x41306A: main (Main.c:92)
+  n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 680 in 73 places, all below massif's threshold (1.00%)
+ n1: 392 0x400F14: setupinertia (Variables.h:86)
+  n0: 392 0x412D9F: main (Main.c:31)
+ n1: 152 0x4034BF: arrscalmult (Requisites.h:485)
+  n0: 152 in 29 places, all below massif's threshold (1.00%)
+ n1: 96 0x403E4C: qtransform (Requisites.h:620)
+  n0: 96 in 4 places, all below massif's threshold (1.00%)
+ n1: 72 0x403406: arrsum (Requisites.h:470)
+  n0: 72 in 14 places, all below massif's threshold (1.00%)
+ n2: 72 0x401B06: scalar_mult_mat (Requisites.h:51)
+  n1: 72 0x408C06: computeLAMBDA_s (Controller.h:33)
+   n1: 72 0x408EE9: sliding_controller (Controller.h:66)
+    n0: 72 0x413221: main (Main.c:124)
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n1: 72 0x400F79: setupinertia (Variables.h:91)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n1: 72 0x400F9B: setupinertia (Variables.h:92)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n2: 72 0x40207F: mxinv (Requisites.h:128)
+  n0: 72 0x412DAE: main (Main.c:32)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72 0x40161F: take_etavalues (Variables.h:244)
+  n0: 72 0x412FB3: main (Main.c:71)
+ n1: 72 0x401754: take_LAMBDAqvalues (Variables.h:257)
+  n0: 72 0x412FBD: main (Main.c:72)
+ n1: 56 0x400EE0: setupinertia (Variables.h:83)
+  n0: 56 0x412D9F: main (Main.c:31)
+#-----------
+snapshot=30
+#-----------
+time=78642905
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=80844735
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=83046901
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=85248700
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=87451328
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=detailed
+n13: 4088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 2208 0x51A611B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x412FE0: main (Main.c:80)
+  n0: 552 0x41300E: main (Main.c:84)
+  n0: 552 0x41303C: main (Main.c:88)
+  n0: 552 0x41306A: main (Main.c:92)
+  n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 680 in 73 places, all below massif's threshold (1.00%)
+ n1: 392 0x400F14: setupinertia (Variables.h:86)
+  n0: 392 0x412D9F: main (Main.c:31)
+ n1: 152 0x4034BF: arrscalmult (Requisites.h:485)
+  n0: 152 in 29 places, all below massif's threshold (1.00%)
+ n1: 96 0x403E4C: qtransform (Requisites.h:620)
+  n0: 96 in 4 places, all below massif's threshold (1.00%)
+ n1: 72 0x403406: arrsum (Requisites.h:470)
+  n0: 72 in 14 places, all below massif's threshold (1.00%)
+ n2: 72 0x401B06: scalar_mult_mat (Requisites.h:51)
+  n1: 72 0x408C06: computeLAMBDA_s (Controller.h:33)
+   n1: 72 0x408EE9: sliding_controller (Controller.h:66)
+    n0: 72 0x413221: main (Main.c:124)
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n1: 72 0x400F79: setupinertia (Variables.h:91)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n1: 72 0x400F9B: setupinertia (Variables.h:92)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n2: 72 0x40207F: mxinv (Requisites.h:128)
+  n0: 72 0x412DAE: main (Main.c:32)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72 0x40161F: take_etavalues (Variables.h:244)
+  n0: 72 0x412FB3: main (Main.c:71)
+ n1: 72 0x401754: take_LAMBDAqvalues (Variables.h:257)
+  n0: 72 0x412FBD: main (Main.c:72)
+ n1: 56 0x400EE0: setupinertia (Variables.h:83)
+  n0: 56 0x412D9F: main (Main.c:31)
+#-----------
+snapshot=35
+#-----------
+time=89652897
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=91978403
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=94180343
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=96382030
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=98584173
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=detailed
+n13: 4088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 2208 0x51A611B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x412FE0: main (Main.c:80)
+  n0: 552 0x41300E: main (Main.c:84)
+  n0: 552 0x41303C: main (Main.c:88)
+  n0: 552 0x41306A: main (Main.c:92)
+  n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 680 in 73 places, all below massif's threshold (1.00%)
+ n1: 392 0x400F14: setupinertia (Variables.h:86)
+  n0: 392 0x412D9F: main (Main.c:31)
+ n1: 152 0x4034BF: arrscalmult (Requisites.h:485)
+  n0: 152 in 29 places, all below massif's threshold (1.00%)
+ n1: 96 0x403E4C: qtransform (Requisites.h:620)
+  n0: 96 in 4 places, all below massif's threshold (1.00%)
+ n1: 72 0x403406: arrsum (Requisites.h:470)
+  n0: 72 in 14 places, all below massif's threshold (1.00%)
+ n2: 72 0x401B06: scalar_mult_mat (Requisites.h:51)
+  n1: 72 0x408C06: computeLAMBDA_s (Controller.h:33)
+   n1: 72 0x408EE9: sliding_controller (Controller.h:66)
+    n0: 72 0x413221: main (Main.c:124)
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n1: 72 0x400F79: setupinertia (Variables.h:91)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n1: 72 0x400F9B: setupinertia (Variables.h:92)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n2: 72 0x40207F: mxinv (Requisites.h:128)
+  n0: 72 0x412DAE: main (Main.c:32)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72 0x40161F: take_etavalues (Variables.h:244)
+  n0: 72 0x412FB3: main (Main.c:71)
+ n1: 72 0x401754: take_LAMBDAqvalues (Variables.h:257)
+  n0: 72 0x412FBD: main (Main.c:72)
+ n1: 56 0x400EE0: setupinertia (Variables.h:83)
+  n0: 56 0x412D9F: main (Main.c:31)
+#-----------
+snapshot=40
+#-----------
+time=102986846
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=107389165
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=109591217
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=detailed
+n13: 4088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 2208 0x51A611B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x412FE0: main (Main.c:80)
+  n0: 552 0x41300E: main (Main.c:84)
+  n0: 552 0x41303C: main (Main.c:88)
+  n0: 552 0x41306A: main (Main.c:92)
+  n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 680 in 73 places, all below massif's threshold (1.00%)
+ n1: 392 0x400F14: setupinertia (Variables.h:86)
+  n0: 392 0x412D9F: main (Main.c:31)
+ n1: 152 0x4034BF: arrscalmult (Requisites.h:485)
+  n0: 152 in 29 places, all below massif's threshold (1.00%)
+ n1: 96 0x403E4C: qtransform (Requisites.h:620)
+  n0: 96 in 4 places, all below massif's threshold (1.00%)
+ n1: 72 0x403406: arrsum (Requisites.h:470)
+  n0: 72 in 14 places, all below massif's threshold (1.00%)
+ n2: 72 0x401B06: scalar_mult_mat (Requisites.h:51)
+  n1: 72 0x408C06: computeLAMBDA_s (Controller.h:33)
+   n1: 72 0x408EE9: sliding_controller (Controller.h:66)
+    n0: 72 0x413221: main (Main.c:124)
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n1: 72 0x400F79: setupinertia (Variables.h:91)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n1: 72 0x400F9B: setupinertia (Variables.h:92)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n2: 72 0x40207F: mxinv (Requisites.h:128)
+  n0: 72 0x412DAE: main (Main.c:32)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72 0x40161F: take_etavalues (Variables.h:244)
+  n0: 72 0x412FB3: main (Main.c:71)
+ n1: 72 0x401754: take_LAMBDAqvalues (Variables.h:257)
+  n0: 72 0x412FBD: main (Main.c:72)
+ n1: 56 0x400EE0: setupinertia (Variables.h:83)
+  n0: 56 0x412D9F: main (Main.c:31)
+#-----------
+snapshot=43
+#-----------
+time=111793783
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=114124727
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=116326056
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=118527960
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=120730469
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=detailed
+n13: 4088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 2208 0x51A611B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x412FE0: main (Main.c:80)
+  n0: 552 0x41300E: main (Main.c:84)
+  n0: 552 0x41303C: main (Main.c:88)
+  n0: 552 0x41306A: main (Main.c:92)
+  n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 680 in 73 places, all below massif's threshold (1.00%)
+ n1: 392 0x400F14: setupinertia (Variables.h:86)
+  n0: 392 0x412D9F: main (Main.c:31)
+ n1: 152 0x4034BF: arrscalmult (Requisites.h:485)
+  n0: 152 in 29 places, all below massif's threshold (1.00%)
+ n1: 96 0x403E4C: qtransform (Requisites.h:620)
+  n0: 96 in 4 places, all below massif's threshold (1.00%)
+ n1: 72 0x403406: arrsum (Requisites.h:470)
+  n0: 72 in 14 places, all below massif's threshold (1.00%)
+ n2: 72 0x401B06: scalar_mult_mat (Requisites.h:51)
+  n1: 72 0x408C06: computeLAMBDA_s (Controller.h:33)
+   n1: 72 0x408EE9: sliding_controller (Controller.h:66)
+    n0: 72 0x413221: main (Main.c:124)
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n1: 72 0x400F79: setupinertia (Variables.h:91)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n1: 72 0x400F9B: setupinertia (Variables.h:92)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n2: 72 0x40207F: mxinv (Requisites.h:128)
+  n0: 72 0x412DAE: main (Main.c:32)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72 0x40161F: take_etavalues (Variables.h:244)
+  n0: 72 0x412FB3: main (Main.c:71)
+ n1: 72 0x401754: take_LAMBDAqvalues (Variables.h:257)
+  n0: 72 0x412FBD: main (Main.c:72)
+ n1: 56 0x400EE0: setupinertia (Variables.h:83)
+  n0: 56 0x412D9F: main (Main.c:31)
+#-----------
+snapshot=48
+#-----------
+time=122931815
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=126203993
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=128405937
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=130608021
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=132810639
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=135012510
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=137338841
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=detailed
+n13: 4088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 2208 0x51A611B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x412FE0: main (Main.c:80)
+  n0: 552 0x41300E: main (Main.c:84)
+  n0: 552 0x41303C: main (Main.c:88)
+  n0: 552 0x41306A: main (Main.c:92)
+  n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 680 in 73 places, all below massif's threshold (1.00%)
+ n1: 392 0x400F14: setupinertia (Variables.h:86)
+  n0: 392 0x412D9F: main (Main.c:31)
+ n1: 152 0x4034BF: arrscalmult (Requisites.h:485)
+  n0: 152 in 29 places, all below massif's threshold (1.00%)
+ n1: 96 0x403E4C: qtransform (Requisites.h:620)
+  n0: 96 in 4 places, all below massif's threshold (1.00%)
+ n1: 72 0x403406: arrsum (Requisites.h:470)
+  n0: 72 in 14 places, all below massif's threshold (1.00%)
+ n2: 72 0x401B06: scalar_mult_mat (Requisites.h:51)
+  n1: 72 0x408C06: computeLAMBDA_s (Controller.h:33)
+   n1: 72 0x408EE9: sliding_controller (Controller.h:66)
+    n0: 72 0x413221: main (Main.c:124)
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n1: 72 0x400F79: setupinertia (Variables.h:91)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n1: 72 0x400F9B: setupinertia (Variables.h:92)
+  n0: 72 0x412D9F: main (Main.c:31)
+ n2: 72 0x40207F: mxinv (Requisites.h:128)
+  n0: 72 0x412DAE: main (Main.c:32)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72 0x40161F: take_etavalues (Variables.h:244)
+  n0: 72 0x412FB3: main (Main.c:71)
+ n1: 72 0x401754: take_LAMBDAqvalues (Variables.h:257)
+  n0: 72 0x412FBD: main (Main.c:72)
+ n1: 56 0x400EE0: setupinertia (Variables.h:83)
+  n0: 56 0x412D9F: main (Main.c:31)
+#-----------
+snapshot=55
+#-----------
+time=139545791
+mem_heap_B=4088
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty

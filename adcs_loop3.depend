@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1469677724 source:d:\rahul\design c files\adcs_loop3\main.c
+	"Requisites.h"
+	"Variables.h"
+	"IGRF.h"
+	"Controller.h"
+	"KinematicsDynamics.h"
+	"Propagation.h"
+	"Sensors.h"
+	"AttitudeDetermination.h"
+	"Actuator.h"
+
+1468335168 d:\rahul\design c files\adcs_loop3\include\requisites.h
+	<stdio.h>
+	<stdarg.h>
+	<time.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<ctype.h>
+	"Variables.h"
+
+1468335168 d:\rahul\design c files\adcs_loop3\include\variables.h
+
+1468335166 d:\rahul\design c files\adcs_loop3\include\igrf.h
+	"Requisites.h"
+	"Variables.h"
+
+1474535090 d:\rahul\design c files\adcs_loop3\include\controller.h
+	"Requisites.h"
+	"Variables.h"
+
+1468335166 d:\rahul\design c files\adcs_loop3\include\kinematicsdynamics.h
+	"Requisites.h"
+	"Variables.h"
+
+1468335168 d:\rahul\design c files\adcs_loop3\include\propagation.h
+	"Requisites.h"
+
+1468335168 d:\rahul\design c files\adcs_loop3\include\sensors.h
+	"Requisites.h"
+	"Sunmodel.h"
+
+1468335168 d:\rahul\design c files\adcs_loop3\include\sunmodel.h
+	"Requisites.h"
+	"Variables.h"
+	<math.h>
+
+1468335164 d:\rahul\design c files\adcs_loop3\include\attitudedetermination.h
+	"Requisites.h"
+	"Variables.h"
+
+1468335164 d:\rahul\design c files\adcs_loop3\include\actuator.h
+	"Requisites.h"
+	"Variables.h"
+
